@@ -1,0 +1,33 @@
+<div data-selector="greeting">
+    {{greeting}}
+    <pre>
+     Factory
+    {{TestFactoryService}}
+    </pre>
+    <pre>
+     Service
+    {{TestServiceService}}
+    </pre>
+     <pre>
+    Factory Factory
+    {{TestFactoryFactoryObject}}
+    </pre>
+    <div ng-controller="InnerServicesController">
+        {{innerGreeting}}
+        <pre>
+        Factory
+        {{innerTestFactoryService}}
+        </pre>
+        <pre>
+        Service
+        {{innerTestServiceService}}
+        </pre>
+        <pre>
+        Factory Factory
+        {{innerTestFactoryFactoryObject}}
+        </pre>
+
+
+    </div>
+
+</div>
